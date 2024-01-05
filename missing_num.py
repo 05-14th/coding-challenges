@@ -1,17 +1,11 @@
-import random as rand
-import numpy as np
+def findMissingNum(arr):
+    n = len(arr) + 1
+    total_sum = (n * (n+1)) // 2
+    current_sum = sum(arr)
+    missing_num = total_sum - current_sum
+    return missing_num
 
-n = int(input("Enter the maximum value: "))
-num_storage = []
-randomIndex = rand.randint(0, n - 1)
-
-for i in range(1,n + 1,1):
-    num_storage.append(i)
-
-missingNum = num_storage[randomIndex]
-num_storage.pop(randomIndex)
-shuffledNum = np.array(num_storage)
-np.random.shuffle(shuffledNum)
-
-print(shuffledNum)
-print(f"The missing number is {missingNum}")
+my_array = [1,5,6,7,8,2,3]
+missing_num = findMissingNum(my_array)
+print(my_array)
+print(f"The missing number is {missing_num}")
