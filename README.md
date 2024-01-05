@@ -4,6 +4,7 @@ The following are the coding challenges I solved which are provided by
 different coding websites and AI.
 
 1. **Missing Number**
+
    Problem: Find the Missing Number
    You are given an array of integers from 1 to N, where one of the numbers is missing. Your task is to write a function that finds and returns the missing number.
    For example:
