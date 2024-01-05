@@ -17,3 +17,11 @@ different coding websites and AI.
    Write a function in your preferred programming language to solve this problem efficiently. Feel free to implement any algorithm or approach you think is suitable.
 
 
+2. **Create Phone Number**
+
+   Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+
+   For example:
+   `createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])` // => returns "(123) 456-7890"
+
+
